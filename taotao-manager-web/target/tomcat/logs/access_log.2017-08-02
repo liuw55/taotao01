@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [02/Aug/2017:19:27:11 +0800] "GET /rest/test/date HTTP/1.1" 200 21 http-bio-8080-exec-1 506
+0:0:0:0:0:0:0:1 - - [02/Aug/2017:19:27:11 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [02/Aug/2017:20:16:29 +0800] "GET /rest/test/date HTTP/1.1" 200 21 http-bio-8080-exec-1 489
+127.0.0.1 - - [02/Aug/2017:21:43:29 +0800] "GET /rest/item/cat/query/1?rows=2 HTTP/1.1" 404 949 http-bio-8080-exec-1 41
+127.0.0.1 - - [02/Aug/2017:21:43:29 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 1
+127.0.0.1 - - [02/Aug/2017:21:44:55 +0800] "GET /rest/item/cat/query/1?rows=2 HTTP/1.1" 200 297 http-bio-8080-exec-1 677
